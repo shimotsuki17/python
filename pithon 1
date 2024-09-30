@@ -1,0 +1,22 @@
+#Задание №1
+1integer_var = 977
+float_var = 454.39string_var = "Яторо"
+list_var = [1, 4, 8, 8, 3, 2, 2]tuple_var = ("раддан", 322, "проигрыш")
+dict_var = {1: "коллапс", 2: "пытался"}set_var = {3, 4, 52, 76}
+bool_var = False
+print(integer_var)print(float_var)
+print(string_var)
+print(list_var)print(tuple_var)
+print(dict_var)print(set_var)
+print(bool_var)
+#Задание №2
+name = "Саша"
+age = 17average_grade = 5.0
+favorite_movies = ["Сумерки", "Сверхъестественное", "Люцифер"]personal_info = ("Гусаченко", "Школа№1381", "average_grade")
+skills = {'luck': 8, 'punctuality': 10}visited_countries = {"Африка", "Южная Германия", "Самара", "Северная Америка"}
+has_driver_license = True
+#Задание №3
+CPU = "Intel i9"
+ram = 32inter_speed = 100
+home_pc = ["Intel i9", "32", "100"]print(home_pc)
+
