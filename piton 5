@@ -35,3 +35,34 @@
 #      print(num_1 * num_2)
 # elif ans == "4":
 #     print(num_1 / num_2)
+
+#Задание№4
+number = int(input("Введите число :"))
+if number % 2 == 0 and number % 10 == 2 or number % 2 == 0 and number % 10 == 6:    print(True)
+else:    print(False)
+#Задание№5
+# pas = ("KirillSanqa")
+# pasword = input("Введите пароль:")# if pasword == pas :
+#     print("Доступ разрешен")# else:
+#     print("Неверный пароль")
+Задание№6
+one = input("Введите квадрат:")Green = ("B2,B4,B6,B8,C2,C7,C10,C11")
+Blue = ("B1,B3,B7,C1,C4,C5,C6,C8,C9")
+if one in Green:    print("В данном квадрате обитает зеленый попугай")
+elif one in Blue:
+    print("В данном квадрате обитает синий попугай")else:
+    print("В данном квадрате никто не обитает")
+Задание№7
+n = int(input("Введите первое число:"))
+# k = int(input("Введите второе число:"))# if n%k == 0:
+#     print("Число кратное")# else:
+#     print("Число не кратное")
+Задание№8
+name = "Shadow Fiend"lvl = int(input("Введите введите ваш уровень:"))
+hp = int(input("Введите ваше здоровье:"))if lvl >= 5:
+    if hp > 50:
+        print("Вы готовы к миссии")    elif hp > 20 or hp < 50:
+        print("Ваше здоровье низкое, будьте осторожны.")    elif hp < 20:
+        print("Ваше здоровье слишком низкое для выполнения миссии")elif lvl < 5:
+    print("Ваш уровень слишком низкий для выполнения миссии")else:
+    print("Введены некорректные данные")
