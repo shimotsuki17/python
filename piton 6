@@ -1,0 +1,51 @@
+Задание№1
+names = ["Richard", "Igor", "Jonathan", "Alice", "Mary", "Bonnie"]
+for i in names:    print("Hello",i,"!")
+Задание№2
+phrase = "I'm learning cycles."
+for i in range(10):    print(phrase)
+Задание№3
+stations = ["Малиновка", "Рябиновка", "Суслово", "Дрожжино", "Звягино"]
+# for i in stations:
+#     if i == "Звягино":#         print(f"Поезд на станции: {i} Конечная!")
+#     else:#         print(f"Поезд на станции: {i}")
+Задание№4
+shop = ["Laptop", "Smartphone", "Watch", "Tablet", "Headphones"]
+for i in shop:    if i == "Laptop":
+        print("I m buying this.")    else:
+        print("I don't need it")
+Задание№5
+tasks = ["Сдать проект (Важная)", "Сходить в магазин", "Позвонить врачу (Важная)", "Убраться в комнате", "Подготовить отчёт"]for index, tasks in enumerate(tasks, start=1):
+    if "Важная" in tasks:        print(f"{index}: ! {tasks}")
+    else:        print(f"{index}: {tasks}")
+  Задание№6
+numders= int(input("Введите количиство чисел: "))for x in range(numders):
+    numders = int(input("Введите сами числа :"))    print(numders)
+Задание№7
+count = 0
+while count < 10:    print(f"Цикл сработал  {count} раз")
+    count += 1
+Задание№8i = 0
+while i < 4:    saad = input("< ")
+    if saad == "w":        print("Персонаж идет вперед.")
+    elif saad == "a":        print("Персонаж идет влево.")
+    elif saad == "s":        print("Персонаж идет назад.")
+    elif saad == "d":        print("Персонаж идет направо.")
+    elif saad == "stop":        print("Программа завершена.")
+        break    else:
+        print("Неизвестная команда!!! Попробуйте снова.")
+Задание№9
+while True:    count = int(input("Введите число от 1 до 9: "))
+    if count >= 1 and count <= 9:        i = 0
+        splash = 0        while i <10:
+            i += 1            splash = count
+            splash *= i            print(f"{count} x {i} = {splash}")
+        else:            print("Число вне диапозона. Попробуйте снова.")
+
+Задание№10
+i = 0aug = "Грамофон"
+while i < 2:    i += 1
+    print("Загадка : Музыкант, певец, рассказчик - а всего труба да ящик")    pkm = input("Ответ: ")
+    if pkm == aug:        print("Загадка разгадана. Поздравляю!!!")
+        break    else:
+        print("Неправильно")        print(f"опыток не осталось {3 - i}")
